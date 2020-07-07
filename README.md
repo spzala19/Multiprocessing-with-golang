@@ -1,6 +1,5 @@
 # Multiprocessing-with-golang
 This little research carried out to know how efficeint the Golang concurrency feature is!
-This little research carried out to know how efficient the Golang 'concurrency' feature is!
 This script consists of the hybrid sorting algorithm (concepts of selection sort & mergeSort)
 Any N sized array is divided into four (because I have 4 cores (2 real cores and another two are virtual core through hyper-threading in intel i3) sub-arrays and they are called concurrently for sorting.
 Once these four sub-arrays are sorted, function merge merges those sub-arrays and returns a final sorted array.
